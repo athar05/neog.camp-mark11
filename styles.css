@@ -1,0 +1,67 @@
+:root {
+  --primary-dark: #1f2937;
+  --primary-green: #6ee7b7;
+}
+
+body {
+  background-color: var(--primary-dark);
+  color: var(--primary-green);
+}
+
+h1 {
+  text-align: center;
+}
+
+input,
+label {
+  display: block;
+  margin: auto;
+}
+
+button {
+  display: block;
+  margin: 20px 0;
+  margin: auto;
+  background-color: var(--primary-green);
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  background-color: white;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.container {
+  width: 20%;
+  margin: auto;
+  padding: 20px 20px;
+  border: 1px solid var(--primary-green);
+}
+
+.d-o-b,
+.num {
+  margin: 20px 0;
+}
+
+.d-o-b label {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.num label {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#date-of-birth {
+  margin: auto;
+}
+
+#lucky-number {
+  margin: auto;
+}
